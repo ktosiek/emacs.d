@@ -68,15 +68,18 @@
 (phi-search-mc/setup-keys)
 
 
-;;; other modes
+;; other modes
 (quelpa 'flycheck)
+(global-flycheck-mode 1)
 
 ;;;;;;;;;;;
 ;; Python
 (quelpa 'elpy)
 (elpy-enable)
-(setq elpy-default-minor-mode (delete 'flymake-mode elpy-default-minor-mode))
-(add-to-list 'elpy-default-minor-mode 'flycheck-mode)
+; don't start flymake - we have global flycheck anyway
+(add-hook 'elpy-mode-hook
+  (lambda () 
+    (setq elpy-default-minor-mode (delete 'flymake-mode elpy-default-minor-mode))))
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;
