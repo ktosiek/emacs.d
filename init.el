@@ -72,6 +72,9 @@
 (quelpa 'flycheck)
 (global-flycheck-mode 1)
 
+(quelpa 'undo-tree)
+(global-undo-tree-mode)
+
 ;;;;;;;;;;;
 ;; Python
 (quelpa 'elpy)
