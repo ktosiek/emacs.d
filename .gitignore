@@ -1,0 +1,12 @@
+/auto-save-list/
+/.places
+/url/
+
+# Elpa is managed by quelpa
+/elpa/
+/quelpa/
+
+# Auto-complete mode
+/ac-comphist.dat
+
+\#*\#
