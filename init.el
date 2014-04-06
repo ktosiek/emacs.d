@@ -84,6 +84,10 @@
   (lambda () 
     (setq elpy-default-minor-mode (delete 'flymake-mode elpy-default-minor-mode))))
 
+;;;;;;;;;;
+;; YAML
+(quelpa '(yaml-mode :repo "yoshiki/yaml-mode" :fetcher github))
+(add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
 
 ;;;;;;;;;;;;;;;;;;;;;;;
 ;; File buffer utils ;;
