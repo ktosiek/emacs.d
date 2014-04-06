@@ -40,6 +40,13 @@
 (setq sml/theme 'dark)
 (sml/setup)
 
+;; Simple editing bindings
+(global-set-key (kbd "C-h") (kbd "<backspace>"))
+(global-set-key (kbd "C-x C-j") 'join-next-line)
+(defun join-next-line ()
+  (interactive)
+  (join-line 1))
+  
 ;; Expand region
 (quelpa 'expand-region)
 (global-set-key (kbd "C-=") 'er/expand-region)
