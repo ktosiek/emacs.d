@@ -1,0 +1,9 @@
+[ ] Przesuwanie linii
+[ ] Debugger
+[ ] Recursive editing
+[ ] Macro counter, coś jak kopiowanie + inkrementacja w VIMie
+[ ] Org-mode (z czymś się integruje?)
+[ ] Komentarze, wcięcia
+[ ] Python-mode, rope
+[ ] Undo-tree
+[ ] Magit
