@@ -15,6 +15,8 @@
 ;; Delete text in active region before inserting new one
 (delete-selection-mode 1)
 
+(package-initialize)
+
 ;; Quelpa, package manager
 (if (require 'quelpa nil t)
     (quelpa '(quelpa :repo "quelpa/quelpa" :fetcher github))
