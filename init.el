@@ -77,6 +77,11 @@
 (quelpa 'undo-tree)
 (global-undo-tree-mode)
 
+;;;;;;;;;;
+;; Magit
+(quelpa 'magit)
+(require 'magit)
+
 ;;;;;;;;;;;
 ;; Python
 (quelpa 'elpy)
