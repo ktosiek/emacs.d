@@ -77,6 +77,10 @@
 (quelpa 'undo-tree)
 (global-undo-tree-mode)
 
+(quelpa 'diff-hl)
+(global-diff-hl-mode 1)
+; TODO: zmusić go do działania z niezapisanym plikiem?
+
 ;;;;;;;;;;
 ;; Magit
 (quelpa 'magit)
