@@ -38,6 +38,8 @@
 (nyan-mode)
 (nyan-start-animation)
 
+(setq show-trailing-whitespace t)
+
 (quelpa 'smart-mode-line)
 (setq sml/theme 'dark)
 (sml/setup)
@@ -48,7 +50,7 @@
 (defun join-next-line ()
   (interactive)
   (join-line 1))
-  
+
 ;; Expand region
 (quelpa 'expand-region)
 (global-set-key (kbd "C-=") 'er/expand-region)
@@ -92,7 +94,7 @@
 (elpy-enable)
 ; don't start flymake - we have global flycheck anyway
 (add-hook 'elpy-mode-hook
-  (lambda () 
+  (lambda ()
     (setq elpy-default-minor-mode (delete 'flymake-mode elpy-default-minor-mode))))
 
 ;;;;;;;;;;
