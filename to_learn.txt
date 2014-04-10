@@ -7,3 +7,11 @@
 * TODO Python-mode, rope
 * TODO Undo-tree
 * TODO Magit
+* TODO Bbdb - one contact book to rule them all?
+Look at links in the comments here: http://sachachua.com/blog/2011/01/emacs-bbdb-and-getting-your-contacts-on-the-android-or-iphone/
+Google contacts sync: http://karra-asynk.appspot.com/
+* TODO Coś w stylu Ctrl-P
+** TODO icicle
+** TODO Emacs Helm
+* TODO Integracja schowka z X11
+  http://superuser.com/questions/419825/make-emacs-explicitly-copy-to-from-the-x11-selection-and-clipboard-buffers
