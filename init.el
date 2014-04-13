@@ -140,7 +140,8 @@
           (set-visited-file-name new-name)
           (set-buffer-modified-p nil)
           (message "File '%s' successfully renamed to '%s'"
-                    (file-name-nondirectory new-name)))))))
+                   name
+                   (file-name-nondirectory new-name)))))))
 
 ;;;;;;;;;;;
 ;; Custom
