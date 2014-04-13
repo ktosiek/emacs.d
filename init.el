@@ -15,6 +15,9 @@
 ;; Delete text in active region before inserting new one
 (delete-selection-mode 1)
 
+;; NO TABS
+(setq-default indent-tabs-mode nil)
+
 (package-initialize)
 
 ;; Quelpa, package manager
