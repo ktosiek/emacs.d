@@ -32,8 +32,9 @@
 (iswitchb-mode 1)
 
 ;; god mode - sticky modifiers, the Emacs way
-(quelpa 'god-mode)
-(global-set-key (kbd "<escape>") 'god-mode-all)
+; TODO: wyraźna informacja że jest aktywny
+;(quelpa 'god-mode)
+;(global-set-key (kbd "<escape>") 'god-mode-all)
 
 ;; Colors
 (quelpa '(molokai-theme :repo "hbin/molokai-theme" :fetcher github))
